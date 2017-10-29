@@ -8,6 +8,7 @@ var idlist = [
     'globals',
     'subs',
     'kappa',
+	'replacelul',
 	'bttv',
     'mute'
 ];
@@ -39,6 +40,7 @@ function fade(element) {
 //saves the options using the chrome storage API - happens each click
 function save_options() {
     var kappa = document.getElementById('kappa');
+	var replacelul = document.getElementById('replacelul');
     var globals = document.getElementById('globals');
     var subs = document.getElementById('subs');
 	var bttv = document.getElementById('bttv');
@@ -55,6 +57,7 @@ function save_options() {
 
     chrome.storage.sync.set({
         kappa: kappa.checked,
+		replacelul: replacelul.checked,
         globals: globals.checked,
         subs: subs.checked,
 		bttv: bttv.checked,
@@ -75,6 +78,7 @@ function save_options() {
 function restore_options() {
   chrome.storage.sync.get({
       kappa: false,
+	  replacelul: false,
       globals: true,
       subs: true,
 	  bttv: false,
@@ -84,6 +88,7 @@ function restore_options() {
       bttv_channel_text: ''
   }, function(items) {
       document.getElementById('kappa').checked = items.kappa;
+	  document.getElementById('replacelul').checked = items.replacelul;
       document.getElementById('globals').checked = items.globals;
       document.getElementById('subs').checked = items.subs;
 	  document.getElementById('bttv').checked = items.bttv;

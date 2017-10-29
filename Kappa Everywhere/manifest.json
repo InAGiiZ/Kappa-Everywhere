@@ -1,29 +1,42 @@
 {
-  "manifest_version": 2,
-
-  "name": "Kappa Everywhere - Global Twitch Emotes",
-  "short_name": "Kappa Everywhere",
-  "description": "Replaces Twitch emote text with the actual emotes on all websites",
-  "version": "1.4.12",
-
-  "content_scripts": [{
-      "js": ["libs/opentip-native.min.js", "contentscript.js"],
-      "css": ["libs/opentip.css"],
-      "run_at": "document_end",
-      "matches": ["*://*/*"]
-  }],
-
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-
-  "permissions": [
-    "storage"
-  ],
-
-  "icons": { 
-      "16": "images/icon16.png",
-      "48": "images/icon48.png",
-      "128": "images/icon128.png" 
-  },
-
-  "options_page": "options.html"
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version": 2,
+    "name": "Kappa Everywhere - Global Twitch Emotes InAGiiZ Edit",
+    "short_name": "Kappa Everywhere",
+    "description": "Replaces Twitch emote text with the actual emotes on all websites",
+    "version": "2.4.16",
+    "content_scripts": [
+        {
+            "js": [
+                "libs/opentip-native.min.js",
+                "contentscript.js"
+            ],
+            "css": [
+                "libs/opentip.css"
+            ],
+            "run_at": "document_end",
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": ["index.js"]
+    },
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com 'unsafe-eval';object-src 'self';",
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking",
+        "webNavigation",
+        "storage"
+    ],
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "options_page": "options.html"
 }

@@ -147,58 +147,63 @@ ignoredChannels = ['agetv1', 'gsl_standard', 'gsl', 'gomexp_2014_season_two', 'g
 // like doing something meticulous today and didn't want to change the layout 
 // of the program
 smilies = new Object();
-smilies[':Z'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-b9cbb6884788aa62-24x18.png';
-smilies[':z'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-b9cbb6884788aa62-24x18.png';
+smilies[':Z'] = 'b9cbb6884788aa62';
+smilies[':z'] = 'b9cbb6884788aa62';
 
-smilies[':)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ebf60cd72f7aa600-24x18.png';
-smilies[':-)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ebf60cd72f7aa600-24x18.png';
+smilies[':)'] = 'ebf60cd72f7aa600';
+smilies[':-)'] = 'ebf60cd72f7aa600';
 
-smilies[':('] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-d570c4b3b8d8fc4d-24x18.png';
-smilies[':-('] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-d570c4b3b8d8fc4d-24x18.png';
+smilies[':('] = 'd570c4b3b8d8fc4d';
+smilies[':-('] = 'd570c4b3b8d8fc4d';
 
-smilies[':p'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-e838e5e34d9f240c-24x18.png';
-smilies[':P'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-e838e5e34d9f240c-24x18.png';
-smilies[':-p'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-e838e5e34d9f240c-24x18.png';
-smilies[':-P'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-e838e5e34d9f240c-24x18.png';
+smilies[':p'] = 'e838e5e34d9f240c';
+smilies[':P'] = 'e838e5e34d9f240c';
+smilies[':-p'] = 'e838e5e34d9f240c';
+smilies[':-P'] = 'e838e5e34d9f240c';
 
-smilies[';p'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-3407bf911ad2fd4a-24x18.png';
-smilies[';-p'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-3407bf911ad2fd4a-24x18.png';
-smilies[';P'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-3407bf911ad2fd4a-24x18.png';
-smilies[';-P'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-3407bf911ad2fd4a-24x18.png';
+smilies[';p'] = '3407bf911ad2fd4a';
+smilies[';-p'] = '3407bf911ad2fd4a';
+smilies[';P'] = '3407bf911ad2fd4a';
+smilies[';-P'] = '3407bf911ad2fd4a';
 
-smilies['<3'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-577ade91d46d7edc-24x18.png';
+smilies['<3'] = '577ade91d46d7edc';
 
-smilies[':/'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-374120835234cb29-24x18.png';
-smilies[':|'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-374120835234cb29-24x18.png';
-smilies[':\\'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-374120835234cb29-24x18.png';
+smilies[':/'] = '374120835234cb29';
+smilies[':|'] = '374120835234cb29';
+smilies[':\\'] = '374120835234cb29';
 
-smilies[';)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-cfaf6eac72fe4de6-24x18.png';
-smilies[';-)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-cfaf6eac72fe4de6-24x18.png';
+smilies[';)'] = 'cfaf6eac72fe4de6';
+smilies[';-)'] = 'cfaf6eac72fe4de6';
 
-smilies['R)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-0536d670860bf733-24x18.png';
-smilies['R-)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-0536d670860bf733-24x18.png';
+smilies['R)'] = '0536d670860bf733';
+smilies['R-)'] = '0536d670860bf733';
 
-smilies['o_O'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
-smilies['O_O'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
-smilies['o_o'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
-smilies['O_o'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
-smilies['o.O'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
-smilies['O.O'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
-smilies['o.o'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
-smilies['O.o'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-8e128fa8dc1de29c-24x18.png';
+smilies['o_O'] = '8e128fa8dc1de29c';
+smilies['O_O'] = '8e128fa8dc1de29c';
+smilies['o_o'] = '8e128fa8dc1de29c';
+smilies['O_o'] = '8e128fa8dc1de29c';
+smilies['o.O'] = '8e128fa8dc1de29c';
+smilies['O.O'] = '8e128fa8dc1de29c';
+smilies['o.o'] = '8e128fa8dc1de29c';
+smilies['O.o'] = '8e128fa8dc1de29c';
 
-smilies[':D'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-9f2ac5d4b53913d7-24x18.png';
-smilies[':-D'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-9f2ac5d4b53913d7-24x18.png';
+smilies[':D'] = '9f2ac5d4b53913d7';
+smilies[':-D'] = '9f2ac5d4b53913d7';
 
-smilies[':o'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ae4e17f5b9624e2f-24x18.png';
-smilies[':O'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ae4e17f5b9624e2f-24x18.png';
-smilies[':-o'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ae4e17f5b9624e2f-24x18.png';
-smilies[':-O'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ae4e17f5b9624e2f-24x18.png';
+smilies[':o'] = 'ae4e17f5b9624e2f';
+smilies[':O'] = 'ae4e17f5b9624e2f';
+smilies[':-o'] = 'ae4e17f5b9624e2f';
+smilies[':-O'] = 'ae4e17f5b9624e2f';
 
-smilies['>('] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-d31223e81104544a-24x18.png';
+smilies['>('] = 'd31223e81104544a';
 
-smilies['B)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-2cde79cfe74c6169-24x18.png';
-smilies['B-)'] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-2cde79cfe74c6169-24x18.png';
+smilies['B)'] = '2cde79cfe74c6169';
+smilies['B-)'] = '2cde79cfe74c6169';
+
+Object.keys(smilies).forEach(function(smile){
+    smilies[smile] = '//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon'+smilies[smile]+'-24x18.png'
+})
+
 //this has been put on hold until i can figure out how to split words based on both whitespace and nonwhitespace characters
 //end goal: to replace "test :) 'Kappa'" with both the :) and the Kappa and still leave in the spaces.
 
@@ -224,7 +229,7 @@ function containsDisallowedChar(word) {
 	
 function get_kappa() {
     if (filter_list.indexOf('Kappa') == -1) {
-        emote_dict['Kappa'] = {url:'//static-cdn.jtvnw.net/jtv_user_pictures/chansub-global-emoticon-ddc6e3a8732cb50f-25x28.png'};
+        emote_dict['Kappa'] = {url:'//static-cdn.jtvnw.net/emoticons/v1/25/1.0'};
     }
     loaded1 = true;
     document.dispatchEvent(dfsEvent);
@@ -232,7 +237,7 @@ function get_kappa() {
 
 function get_globals() {
 	var xhr = new XMLHttpRequest();
-    xhr.open('GET', '//twitchemotes.com/api_cache/v2/global.json');
+    xhr.open('GET', '//twitchemotes.com/api_cache/v3/global.json');
     xhr.send();
     var url_template = "//static-cdn.jtvnw.net/emoticons/v1/" //{image_id}/1.0
     function done_with_loading() {
@@ -243,19 +248,28 @@ function get_globals() {
         done_with_loading();
     };
     xhr.onload = function() {
-		emote_d = JSON.parse(xhr.responseText)['emotes'];
+		emote_d = JSON.parse(xhr.responseText);
+		for (var emote in emote_d) {
+            if (filter_list.indexOf(emote) == -1) {
+                emote_dict[emote] = {url: url_template + emote_d[emote]['id'] + '/' + '1.0'};
+            }
+		}
+        done_with_loading();
+		
+		/*emote_d = JSON.parse(xhr.responseText)['emotes'];
 		for (var emote in emote_d) {
             if (filter_list.indexOf(emote) == -1) {
                 emote_dict[emote] = {url: url_template + emote_d[emote]['image_id'] + '/' + '1.0'};
             }
 		}
         done_with_loading();
+		*/
     }
 }
 
 function get_subs() {
 	var xhr = new XMLHttpRequest();
-    xhr.open('GET', '//twitchemotes.com/api_cache/v2/subscriber.json');
+    xhr.open('GET', '//twitchemotes.com/api_cache/v3/subscriber.json');
     xhr.send();
     var url_template = "//static-cdn.jtvnw.net/emoticons/v1/" //{image_id}/1.0
     function done_with_loading() {
@@ -266,6 +280,25 @@ function get_subs() {
         done_with_loading();
     };
     xhr.onload = function() {
+		/*
+		emote_dd = JSON.parse(xhr.responseText);
+		for (var channel_id in emote_dd) {
+			channel_name = emote_dd[channel_id]['channel_name'];
+			for (var i in emote_dd[channel_id]['emotes']) {
+                dict = emote_dd[channel_id]['emotes'][i]
+                var code = dict['code'];
+				if (ignoredChannels.indexOf(channel.toLowerCase()) == -1 &&
+                    is_valid_sub_emote(code)) {
+                        emote_dict[code] = {
+                            url: url_template + dict['id'] + '/' + '1.0',
+                            channel: channel
+                        };
+				}
+			}
+		}
+		done_with_loading();
+		document.dispatchEvent(dfsEvent);
+		*/
 		emote_d = JSON.parse(xhr.responseText)['channels'];
 		for (var channel in emote_d) {
 			for (var i in emote_d[channel]['emotes']) {
@@ -282,6 +315,7 @@ function get_subs() {
 		}
         done_with_loading();
 		document.dispatchEvent(dfsEvent);
+		
     }
 }
 
